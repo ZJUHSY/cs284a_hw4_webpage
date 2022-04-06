@@ -4,6 +4,7 @@
 
 ## Part 1: Masses and springs
 
+
 ## Part 2: Simulation via numerical integration
 
 ## Part 3: Handling collisions with other objects
