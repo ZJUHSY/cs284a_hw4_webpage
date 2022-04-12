@@ -101,3 +101,6 @@ density=1 | density=15 | density=150
 ### Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in /textures/.
 ### Show a screenshot of bump mapping on the cloth and on the sphere. Show a screenshot of displacement mapping on the sphere. Use the same texture for both renders. You can either provide your own texture or use one of the ones in the textures directory, BUT choose one that's not the default texture_2.png. Compare the two approaches and resulting renders in your own words. Compare how your the two shaders react to the sphere by changing the sphere mesh's coarseness by using -o 16 -a 16 and then -o 128 -a 128.
 ### Show a screenshot of your mirror shader on the cloth and on the sphere.
+mirror shader on the sphere | mirror shader on the cloth 
+:---: | :---: 
+![](/Pic/P5/5-5-1.png) | ![](/Pic/P5/5-5-2.png) 
