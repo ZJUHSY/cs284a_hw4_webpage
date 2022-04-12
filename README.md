@@ -54,9 +54,34 @@ Below are the final state of the rendered *pinned4.json* file. (default paramete
 
 ## Part 3: Handling collisions with other objects
 
+### Sphere
+Below are the screenshots of the final state of the rendered *sphere.json* file. (ks=500, 5000, 50000)
 
+ks=500 | ks=5000 | ks=50000
+:---: | :---: | :---:
+![](/Pic/P3/ks500.png) | ![](/Pic/P3/ks5000.png) | ![](/Pic/P3/ks50000.png) 
+
+We can see from the pictures above that the cloth spreads out at a wider angle after reaching the final state. Because the closth can support itself better when *ks* increases (lareger force provided by spring). Therefore, the pointmass on the two side (not adhere to the shpere) will balance itself at a larger angle. 
+
+### Plane
+Below are the screenshots of the shaded cloth lying at the plane. 
+
+![](/Pic/P3/plane.png)
 
 ## Part 4: Handling self-collisions
+
+### Screenshots
+
+The figure below shows the process of the falling and folding of the cloth, starting from an initial state and ending at a restful state at ground. We can see the cloth folds itself finally.
+
+1 | 2 | 3 | 4
+:---: | :---: | :---: | :---:
+![](/Pic/P4/fall_1.png) | ![](/Pic/P4/fall_2.png) | ![](/Pic/P4/fall_3.png) | ![](/Pic/P4/fall_4.png)
+
+### Changing *ks*
+
+
+### Changing *density*
 
 ## Part 5: Shaders
 
