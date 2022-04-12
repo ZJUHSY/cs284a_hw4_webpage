@@ -80,8 +80,20 @@ The figure below shows the process of the falling and folding of the cloth, star
 
 ### Changing *ks*
 
+The figure below shows the rendered screenshots of the final state of the cloth with different spring constant *ks* values. We can see the cloth falls itself in a more loose state as *ks* decreases. This is because the supportive force from the spring decreases as *ks* decreases, leading to less supportive force and looser state. On the contrary, the cloth will support itself in a higher height with larger *ks* values.
+
+ks=50 | ks=500 | ks=5000 | ks=50000
+:---: | :---: | :---: | :---:
+![](/Pic/P4/ks_50.png) | ![](/Pic/P4/ks_500.png) | ![](/Pic/P4/ks_5000.png) | ![](/Pic/P4/ks_50000.png)
 
 ### Changing *density*
+
+The figure below shows the rendered screenshots of the final state of the cloth with different *density*. We can see that the cloth folds itself in a looser final state with larger densities. Similar to before, the external force will increase as *density* increases. Therefore, the cloth will be forced to a more flat state with less internal force (spring) accordingly. 
+
+density=1 | density=15 | density=150
+:---: | :---: | :---:
+![](/Pic/P4/density_1.png) | ![](/Pic/P4/density_15.png) | ![](/Pic/P4/density_150.png)
+
 
 ## Part 5: Shaders
 
