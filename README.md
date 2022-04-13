@@ -138,7 +138,7 @@ displacement mapping on the sphere | displacement mapping on the cloth
 
 Comparison of two approaches:
 
-From the figure above, we can see that the texture of bump mapping only exists on the surface of the object, and the object can still retain its original shape; Display mapping highlights the material of the object surface, making the surface of the sphere follow the texture and appear uneven. Compared with bump mapping, the surface is more rough and irregular.
+From the figure above, we can see that the texture of bump mapping only exists on the surface of the object, and the object can still retain its original shape; Displacement mapping highlights the material of the object surface, making the surface of the sphere follow the texture and appear uneven. Compared with bump mapping, the surface is more rough and irregular.
 
 origin | -o 16 -a 16 | -o 128 -a 128
 :---: | :---: | :---:
@@ -149,7 +149,7 @@ origin | -o 16 -a 16 | -o 128 -a 128
 ![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-6.png) | ![](/Pic/P5/5-4-8.png)
 
 Comparison of different mesh's coarseness:
-
+By modifying mesh's coarseness, we can see that coarseness has little effect on bump mapping. Because bump mapping itself does not affect the shape of the graphic surface, coarseness can only change some surface texture details; However, coarseness has a great impact on displacement mapping. We can see that when the parameter is 16, the graph is smoother than the original graph, and when the parameter is 128, the graph is coarser than the original graph, indicating that coarseness will be intuitively reflected in the roughness and shape change of the object surface in displacement mapping.
 ### Show a screenshot of your mirror shader on the cloth and on the sphere.
 mirror shader on the sphere | mirror shader on the cloth 
 :---: | :---: 
