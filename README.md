@@ -101,9 +101,9 @@ density=1 | density=15 | density=150
 ### Explain the Blinn-Phong shading model in your own words. Show a screenshot of your Blinn-Phong shader outputting only the ambient component, a screen shot only outputting the diffuse component, a screen shot only outputting the specular component, and one using the entire Blinn-Phong model.
 Explanation:
 
-Only Ambient Component | Only Diffuse Component | Only Specular Component | Entire Blinn-Phong Model
+Only Ambient Component | Only Diffuse Component
 :---: | :---: | :---: | :---:
-![](/Pic/P5/5-2-1.png) | ![](/Pic/P5/5-2-2.png) | ![](/Pic/P5/5-2-3.png) | ![](/Pic/P5/5-2-4.png)
+![](/Pic/P5/5-2-1.png) | ![](/Pic/P5/5-2-2.png)
 
 Only Specular Component | Entire Blinn-Phong Model
 :---: | :---:
@@ -114,6 +114,19 @@ texture mapping shader on the sphere | texture mapping shader on the cloth
 ![](/Pic/P5/5-3-1.png) | ![](/Pic/P5/5-3-2.png) 
 
 ### Show a screenshot of bump mapping on the cloth and on the sphere. Show a screenshot of displacement mapping on the sphere. Use the same texture for both renders. You can either provide your own texture or use one of the ones in the textures directory, BUT choose one that's not the default texture_2.png. Compare the two approaches and resulting renders in your own words. Compare how your the two shaders react to the sphere by changing the sphere mesh's coarseness by using -o 16 -a 16 and then -o 128 -a 128.
+bump mapping on the sphere | bump mapping on the cloth 
+:---: | :---: 
+![](/Pic/P5/5-4-1.png) | ![](/Pic/P5/5-4-2.png) 
+
+displacement mapping on the sphere | displacement mapping on the cloth 
+:---: | :---: 
+![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-4.png) 
+
+origin | -o 16 -a 16 | -o 16 -a 16
+:---: | :---: | :---:
+![](/Pic/P5/5-4-1.png) | ![](/Pic/P5/5-4-5.png) | ![](/Pic/P5/5-4-7.png)
+![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-6.png) | ![](/Pic/P5/5-4-8.png)
+
 ### Show a screenshot of your mirror shader on the cloth and on the sphere.
 mirror shader on the sphere | mirror shader on the cloth 
 :---: | :---: 
