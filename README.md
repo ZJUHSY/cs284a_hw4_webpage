@@ -97,7 +97,13 @@ density=1 | density=15 | density=150
 
 ## Part 5: Shaders
 ### Explain in your own words what is a shader program and how vertex and fragment shaders work together to create lighting and material effects.
+
 ### Explain the Blinn-Phong shading model in your own words. Show a screenshot of your Blinn-Phong shader outputting only the ambient component, a screen shot only outputting the diffuse component, a screen shot only outputting the specular component, and one using the entire Blinn-Phong model.
+Explanation:
+
+Only Ambient Component | Only Diffuse Component | Only Specular Component | Entire Blinn-Phong Model
+:---: | :---: | :---: | :---:
+![](/Pic/P5/5-3-1.png) | ![](/Pic/P5/5-3-2.png) | ![](/Pic/P5/5-3-3.png) | ![](/Pic/P5/5-3-4.png)
 ### Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in /textures/.
 texture mapping shader on the sphere | texture mapping shader on the cloth 
 :---: | :---: 
