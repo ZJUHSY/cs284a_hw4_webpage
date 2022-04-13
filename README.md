@@ -104,6 +104,10 @@ Explanation:
 Only Ambient Component | Only Diffuse Component | Only Specular Component | Entire Blinn-Phong Model
 :---: | :---: | :---: | :---:
 ![](/Pic/P5/5-2-1.png) | ![](/Pic/P5/5-2-2.png) | ![](/Pic/P5/5-2-3.png) | ![](/Pic/P5/5-2-4.png)
+
+Only Specular Component | Entire Blinn-Phong Model
+:---: | :---:
+![](/Pic/P5/5-2-3.png) | ![](/Pic/P5/5-2-4.png)
 ### Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in /textures/.
 texture mapping shader on the sphere | texture mapping shader on the cloth 
 :---: | :---: 
