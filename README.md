@@ -125,6 +125,9 @@ displacement mapping on the sphere | displacement mapping on the cloth
 origin | -o 16 -a 16 | -o 16 -a 16
 :---: | :---: | :---:
 ![](/Pic/P5/5-4-1.png) | ![](/Pic/P5/5-4-5.png) | ![](/Pic/P5/5-4-7.png)
+
+origin | -o 16 -a 16 | -o 16 -a 16
+:---: | :---: | :---:
 ![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-6.png) | ![](/Pic/P5/5-4-8.png)
 
 ### Show a screenshot of your mirror shader on the cloth and on the sphere.
