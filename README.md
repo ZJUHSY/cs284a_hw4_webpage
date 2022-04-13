@@ -102,7 +102,7 @@ density=1 | density=15 | density=150
 Explanation:
 
 Only Ambient Component | Only Diffuse Component
-:---: | :---: | :---: | :---:
+:---: | :---:
 ![](/Pic/P5/5-2-1.png) | ![](/Pic/P5/5-2-2.png)
 
 Only Specular Component | Entire Blinn-Phong Model
