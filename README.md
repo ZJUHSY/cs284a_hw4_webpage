@@ -107,6 +107,7 @@ Vertex shaders is used to assign the attributes of points in the scene and conve
 
 ### Explain the Blinn-Phong shading model in your own words. Show a screenshot of your Blinn-Phong shader outputting only the ambient component, a screen shot only outputting the diffuse component, a screen shot only outputting the specular component, and one using the entire Blinn-Phong model.
 Explanation:
+Blinn-Phong shading model can simply describe the absorption and reflection of light on the object surface, so that the object surface presents different light and dark degrees. Blinn Phong shading model divides light into three types: ambient light, diffuse light, and special reflections Special reflections is the light that the object completely reflects the light that the light source irradiates on the surface, diffuse light is the light that the object reflects the same brightness in any direction, ambient light is the light that the object surface completely faces away from the light source, but the light reflected by other objects irradiates on the object surface, and then reflects the light through the object. Blinn Phong shading integrates these three lights. It uses the omni light model to process ambient light, the Lambert diffuse light model to process diffuse light, and the Phong reflection model to process spectral reflections. The linear superposition of the three results is the total material shading effect of Blinn Phong shading model.
 
 Only Ambient Component | Only Diffuse Component
 :---: | :---:
