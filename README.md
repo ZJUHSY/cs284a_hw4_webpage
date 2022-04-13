@@ -97,6 +97,11 @@ density=1 | density=15 | density=150
 
 ## Part 5: Shaders
 ### Explain in your own words what is a shader program and how vertex and fragment shaders work together to create lighting and material effects.
+Explanation of shader:
+Shader programs is a special method to render material effects on the object surface. It has much less computation than the conventional material rendering based on light tracking. It runs in parallel on GPU and finally takes the form of vector as the output.
+
+How vertex and fragment shaders work together:
+Vertex shaders is used to assign the attributes of points in the scene and convert the scene to a unified coordinate system. Fragment shaders is used to sssign RGB color attributes to all pixels in the scene. The vertex shader controls the attributes of all vertex pixels in the scene. At the same time, after obtaining the coordinates of the vertices, the fragment shader will interpolate between the vertices to achieve various material effects.
 
 ### Explain the Blinn-Phong shading model in your own words. Show a screenshot of your Blinn-Phong shader outputting only the ambient component, a screen shot only outputting the diffuse component, a screen shot only outputting the specular component, and one using the entire Blinn-Phong model.
 Explanation:
@@ -108,6 +113,7 @@ Only Ambient Component | Only Diffuse Component
 Only Specular Component | Entire Blinn-Phong Model
 :---: | :---:
 ![](/Pic/P5/5-2-3.png) | ![](/Pic/P5/5-2-4.png)
+
 ### Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in /textures/.
 texture mapping shader on the sphere | texture mapping shader on the cloth 
 :---: | :---: 
