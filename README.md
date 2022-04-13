@@ -117,6 +117,8 @@ Only Specular Component | Entire Blinn-Phong Model
 ![](/Pic/P5/5-2-3.png) | ![](/Pic/P5/5-2-4.png)
 
 ### Show a screenshot of your texture mapping shader using your own custom texture by modifying the textures in /textures/.
+We use the famous Lena image as texture filling.
+
 texture mapping shader on the sphere | texture mapping shader on the cloth 
 :---: | :---: 
 ![](/Pic/P5/5-3-1.png) | ![](/Pic/P5/5-3-2.png) 
