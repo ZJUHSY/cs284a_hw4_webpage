@@ -109,6 +109,8 @@ Vertex shaders is used to assign the attributes of points in the scene and conve
 Explanation:
 Blinn-Phong shading model can simply describe the absorption and reflection of light on the object surface, so that the object surface presents different light and dark degrees. Blinn Phong shading model divides light into three types: ambient light, diffuse light, and special reflections Special reflections is the light that the object completely reflects the light that the light source irradiates on the surface, diffuse light is the light that the object reflects the same brightness in any direction, ambient light is the light that the object surface completely faces away from the light source, but the light reflected by other objects irradiates on the object surface, and then reflects the light through the object. Blinn Phong shading integrates these three lights. It uses the omni light model to process ambient light, the Lambert diffuse light model to process diffuse light, and the Phong reflection model to process spectral reflections. The linear superposition of the three results is the total material shading effect of Blinn Phong shading model.
 
+The parameter we used are ka = 0.1, kd = 1, ks = 0.5, ia = 1, p = 100.
+
 Only Ambient Component | Only Diffuse Component
 :---: | :---:
 ![](/Pic/P5/5-2-1.png) | ![](/Pic/P5/5-2-2.png)
@@ -125,6 +127,7 @@ texture mapping shader on the sphere | texture mapping shader on the cloth
 ![](/Pic/P5/5-3-1.png) | ![](/Pic/P5/5-3-2.png) 
 
 ### Show a screenshot of bump mapping on the cloth and on the sphere. Show a screenshot of displacement mapping on the sphere. Use the same texture for both renders. You can either provide your own texture or use one of the ones in the textures directory, BUT choose one that's not the default texture_2.png. Compare the two approaches and resulting renders in your own words. Compare how your the two shaders react to the sphere by changing the sphere mesh's coarseness by using -o 16 -a 16 and then -o 128 -a 128.
+
 bump mapping on the sphere | bump mapping on the cloth 
 :---: | :---: 
 ![](/Pic/P5/5-4-1.png) | ![](/Pic/P5/5-4-2.png) 
@@ -133,13 +136,17 @@ displacement mapping on the sphere | displacement mapping on the cloth
 :---: | :---: 
 ![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-4.png) 
 
-origin | -o 16 -a 16 | -o 16 -a 16
+Comparison of two approaches:
+
+origin | -o 16 -a 16 | -o 128 -a 128
 :---: | :---: | :---:
 ![](/Pic/P5/5-4-1.png) | ![](/Pic/P5/5-4-5.png) | ![](/Pic/P5/5-4-7.png)
 
-origin | -o 16 -a 16 | -o 16 -a 16
+origin | -o 16 -a 16 | -o 128 -a 128
 :---: | :---: | :---:
 ![](/Pic/P5/5-4-3.png) | ![](/Pic/P5/5-4-6.png) | ![](/Pic/P5/5-4-8.png)
+
+Comparison of different mesh's coarseness:
 
 ### Show a screenshot of your mirror shader on the cloth and on the sphere.
 mirror shader on the sphere | mirror shader on the cloth 
