@@ -105,7 +105,7 @@ Shader programs is a special method to render material effects on the object sur
 
 How vertex and fragment shaders work together:
 
-Vertex shaders is used to assign the attributes of points in the scene and convert the scene to a unified coordinate system. Fragment shaders is used to sssign RGB color attributes to all pixels in the scene. The vertex shader controls the attributes of all vertex pixels in the scene. At the same time, after obtaining the coordinates of the vertices, the fragment shader will interpolate between the vertices to achieve various material effects.
+Vertex shaders is used to assign the attributes of points in the scene and convert the scene to a unified coordinate system. Fragment shaders is used to assign RGB color attributes to all pixels in the scene. The vertex shader controls the attributes of all vertex pixels in the scene. At the same time, after obtaining the coordinates of the vertices, the fragment shader will interpolate between the vertices to achieve various material effects.
 
 ### Explain the Blinn-Phong shading model in your own words. Show a screenshot of your Blinn-Phong shader outputting only the ambient component, a screen shot only outputting the diffuse component, a screen shot only outputting the specular component, and one using the entire Blinn-Phong model.
 Explanation:
