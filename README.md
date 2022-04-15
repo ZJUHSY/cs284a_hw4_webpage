@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, we build a real-time cloth simulation by the masses and springs data structure. We start first by building the grid of masses and springs of different types. And then we apply simulation based on the Newton's law (calculating each spring mass's external and internal force), and update the position accordingly using verlet integration. And then we apply self-collisions and collisions with other objects such as sphere and planes to achieve more realistic simulation effect.
+In this project, we build a real-time cloth simulation by the masses and springs data structure. We start first by building the grid of masses and springs of different types. And then we apply simulation based on the Newton's law (calculating each spring mass's external and internal force), and update the position accordingly using verlet integration. And then we apply self-collisions and collisions with other objects such as sphere and planes to achieve more realistic simulation effect. At the end of the project, we came into contact with a new graphics rendering method, shader. By modifying vertex shaders and fragment shaders code, we have implemented several traditional GLSL shader programs, including diffuse shading, Blinn Phong shading, texture mapping, displacement and bump mapping and environment mapped reflections.
 
 ## Part 1: Masses and springs
 
